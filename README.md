@@ -1,6 +1,5 @@
 # ZQYGreenDaoDemo
 
-<<<<<<< HEAD
 **该demo是GreenDao3.2使用详解（增，删，改，查，升级）**
 
 ### 第一步： 配置build.grade
@@ -288,6 +287,3 @@ public static DaoMaster getDaoMaster(Context context) {
 
 
 
-=======
-目前只新建了一个工程，添加了一下依赖库，由于Grade版本问题，编译没通过。
->>>>>>> 79168e5000e989dc5223f16b33169c3f369f3f44
