@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
      * 初始化数据
      */
     private void initData() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 30; i++) {
             Student student = new Student((long) i, "huang" + i, 25,"666"+i, "男");
 
             studentList.add(student);
