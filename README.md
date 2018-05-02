@@ -6,13 +6,17 @@
 
 1. projet 目录下的build.gradle
 
-    
-```
-dependencies {  
+`repositories {
+    // add repository
+    mavenCentral()
+}`
+
+
+`dependencies {  
     // add plugin
     classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2'
-}
-```
+}  ` 
+
  
 2. moudle 下的build.gradle添加如下内容： 
 
@@ -26,6 +30,7 @@ apply plugin: 'org.greenrobot.greendao'
  dependencies {  
  
     .....................  
+
     // add library
     compile 'org.greenrobot:greendao:3.2.0'  
 }
